@@ -1,10 +1,8 @@
 name: 'Hostloc Auto Get Points'
 
 on:
-  push:
-    branches: 
-      - master
-  schedule:
+   workflow_dispatch:
+   schedule:
     - cron: '0 17 * * *'
 
 jobs:
